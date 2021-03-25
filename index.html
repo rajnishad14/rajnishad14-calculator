@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container" align="center">
+      <table>
+        <tr>
+          <td colspan="4"><input type="text" class="text" id="input" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button onclick="cleartext()" class="btn" id="clr">clear</button>
+          </td>
+          <td colspan="2">
+            <button onclick="deletee()" class="btn">delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td><button onclick="display(1)" id="block1" class="btn num">1</button></td>
+          <td><button onclick="display(2)" id="block2" class="btn num">2</button></td>
+          <td><button onclick="display(3)" id="block3" class="btn num">3</button></td>
+          <td><button onclick="display('+')" id="plus" class="btn opr">+</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="display(4)" id="block4" class="btn num">4</button></td>
+          <td><button onclick="display(5)" id="block5" class="btn num">5</button></td>
+          <td><button onclick="display(6)" id="block6" class="btn num">6</button></td>
+          <td><button onclick="display('-')" id="minus" class="btn opr">-</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="display(7)" id="block7" class="btn num">7</button></td>
+          <td><button onclick="display(8)" id="block8" class="btn num">8</button></td>
+          <td><button onclick="display(9)" id="block9" class="btn num">9</button></td>
+          <td><button onclick="display('*')" id="multiply"  class="btn opr">*</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="display('.')" id="dot" class="btn num">.</button></td>
+          <td><button onclick="display(0)" id="block0" class="btn num">0</button></td>
+          <td><button onclick="calculate()" class="btn" id="ans">=</button></td>
+          <td><button onclick="display('/')" id="divide" class="btn opr">/</button></td>
+        </tr>
+      </table>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
